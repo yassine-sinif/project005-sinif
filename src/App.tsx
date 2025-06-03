@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './styles/App.css'
 
@@ -18,7 +17,7 @@ import Footer from './components/layout/Footer'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/project005-sinif">
       <div className="app">
         <Header />
         <main>
