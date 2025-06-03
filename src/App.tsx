@@ -17,7 +17,7 @@ import Footer from './components/layout/Footer'
 
 function App() {
   return (
-    <Router >
+    <Router basename="/project005-sinif">
       <div className="app">
         <Header />
         <main>
