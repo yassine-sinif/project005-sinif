@@ -2,68 +2,69 @@ import React from 'react';
 
 const Blog = () => {
   // Mock blog posts data
-  const blogPosts = [
-    {
-      id: 1,
-      title: 'The Origins of Moroccan Darija',
-      excerpt: 'Explore the fascinating history of Moroccan Darija and its influences from Arabic, Berber, French, and Spanish languages.',
-      author: 'Fatima Zahra',
-      date: 'May 28, 2025',
-      image: '/src/assets/blog1.jpg',
-      category: 'Language',
-      readTime: '5 min read'
-    },
-    {
-      id: 2,
-      title: 'Essential Darija Phrases for the Moroccan Souk',
-      excerpt: 'Master these key phrases to navigate Morocco\'s bustling markets like a local and get the best deals.',
-      author: 'Ahmed Benali',
-      date: 'May 21, 2025',
-      image: '/src/assets/blog2.jpg',
-      category: 'Practical Tips',
-      readTime: '4 min read'
-    },
-    {
-      id: 3,
-      title: 'The Art of Moroccan Storytelling',
-      excerpt: 'Discover the rich tradition of hikayat (storytelling) in Moroccan culture and its role in preserving oral history.',
-      author: 'Sarah Johnson',
-      date: 'May 14, 2025',
-      image: '/src/assets/blog3.jpg',
-      category: 'Culture',
-      readTime: '6 min read'
-    },
-    {
-      id: 4,
-      title: 'Regional Variations in Moroccan Darija',
-      excerpt: 'Learn how Darija varies across different regions of Morocco, from the northern dialect to the Saharan expressions.',
-      author: 'Fatima Zahra',
-      date: 'May 7, 2025',
-      image: '/src/assets/blog4.jpg',
-      category: 'Language',
-      readTime: '7 min read'
-    },
-    {
-      id: 5,
-      title: 'Cooking with Darija: Kitchen Vocabulary',
-      excerpt: 'Expand your culinary vocabulary with essential Darija terms for cooking traditional Moroccan dishes.',
-      author: 'Ahmed Benali',
-      date: 'April 30, 2025',
-      image: '/src/assets/blog5.jpg',
-      category: 'Practical Tips',
-      readTime: '5 min read'
-    },
-    {
-      id: 6,
-      title: 'Moroccan Proverbs and Their Meanings',
-      excerpt: 'Dive into the wisdom of Moroccan proverbs and learn how they reflect cultural values and everyday philosophy.',
-      author: 'Sarah Johnson',
-      date: 'April 23, 2025',
-      image: '/src/assets/blog6.jpg',
-      category: 'Culture',
-      readTime: '8 min read'
-    }
-  ];
+const blogPosts = [
+  {
+    id: 1,
+    title: 'The Origins of Moroccan Darija',
+    excerpt: 'Explore the fascinating history of Moroccan Darija and its influences from Arabic, Berber, French, and Spanish languages.',
+    author: 'Fatima bnt hada',
+    date: 'May 28, 2025',
+    image: '/src/assets/blog1.jpg',
+    category: 'Language',
+    readTime: '5 min read'
+  },
+  {
+    id: 2,
+    title: 'Essential Darija Phrases for the Moroccan Souk',
+    excerpt: 'Master these key phrases to navigate Morocco\'s bustling markets like a local and get the best deals.',
+    author: 'hmad bn 3bdslam',
+    date: 'May 21, 2025',
+    image: '/src/assets/blog2.jpg',
+    category: 'Practical Tips',
+    readTime: '4 min read'
+  },
+  {
+    id: 3,
+    title: 'The Art of Moroccan Storytelling',
+    excerpt: 'Discover the rich tradition of hikayat (storytelling) in Moroccan culture and its role in preserving oral history.',
+    author: 'Hind',
+    date: 'May 14, 2025',
+    image: '/src/assets/blog3.jpg',
+    category: 'Culture',
+    readTime: '6 min read'
+  },
+  {
+    id: 4,
+    title: 'Regional Variations in Moroccan Darija',
+    excerpt: 'Learn how Darija varies across different regions of Morocco, from the northern dialect to the Saharan expressions.',
+    author: 'Fatima bnt hada',
+    date: 'May 7, 2025',
+    image: '/src/assets/blog4.jpg',
+    category: 'Language',
+    readTime: '7 min read'
+  },
+  {
+    id: 5,
+    title: 'Cooking with Darija: Kitchen Vocabulary',
+    excerpt: 'Expand your culinary vocabulary with essential Darija terms for cooking traditional Moroccan dishes.',
+    author: 'hmad bn 3bdslam',
+    date: 'April 30, 2025',
+    image: '/src/assets/blog5.jpg',
+    category: 'Practical Tips',
+    readTime: '5 min read'
+  },
+  {
+    id: 6,
+    title: 'Moroccan Proverbs and Their Meanings',
+    excerpt: 'Dive into the wisdom of Moroccan proverbs and learn how they reflect cultural values and everyday philosophy.',
+    author: 'Hind',
+    date: 'April 23, 2025',
+    image: '/src/assets/blog6.jpg',
+    category: 'Culture',
+    readTime: '8 min read'
+  }
+];
+
 
   // Categories for filtering
   const categories = ['All', 'Language', 'Culture', 'Practical Tips'];

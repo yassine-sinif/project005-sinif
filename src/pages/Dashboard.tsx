@@ -5,8 +5,8 @@ const Dashboard = () => {
   
   // Mock user data
   const userData = {
-    name: 'John Doe',
-    email: 'john.doe@example.com',
+    name: 'yassine',
+    email: 'yassine@gmail.com',
     targetProficiency: 'Intermediate',
     preferredLanguage: 'English',
     avatar: '/src/assets/avatar.jpg',

@@ -4,13 +4,13 @@ const About = () => {
   return (
     <div className="section">
       <div className="container">
-        <h1 className="section-title">About LinguaLink</h1>
+        <h1 className="section-title">About SiLang</h1>
         
         <div className="about-content">
           <div className="about-mission">
             <h2>Our Mission</h2>
             <p>
-              At LinguaLink, we believe that language learning should be immersive, 
+              At SiLang, we believe that language learning should be immersive, 
               contextual, and culturally rich. Our mission is to help non-native Arabic 
               speakers and Moroccans alike deepen their understanding of Moroccan Darija 
               through engaging stories that reflect real-life situations and cultural nuances.
@@ -67,7 +67,7 @@ const About = () => {
             <div className="team-members">
               <div className="team-member">
                 <div className="team-member-image"></div>
-                <h3>Fatima Zahra</h3>
+                <h3>Fatima bnt hada</h3>
                 <p className="team-member-role">Founder & Content Director</p>
                 <p className="team-member-bio">
                   Born and raised in Rabat, Fatima has a passion for sharing 
@@ -81,7 +81,7 @@ const About = () => {
               
               <div className="team-member">
                 <div className="team-member-image"></div>
-                <h3>Ahmed Benali</h3>
+                <h3>hmad bn 3bdslam </h3>
                 <p className="team-member-role">Audio Production & Narration</p>
                 <p className="team-member-bio">
                   A voice actor from Casablanca, Ahmed brings our stories to life 
@@ -95,7 +95,7 @@ const About = () => {
               
               <div className="team-member">
                 <div className="team-member-image"></div>
-                <h3>Sarah Johnson</h3>
+                <h3>Hind</h3>
                 <p className="team-member-role">Educational Consultant</p>
                 <p className="team-member-bio">
                   With over 10 years of experience teaching Arabic to English speakers, 
@@ -114,12 +114,12 @@ const About = () => {
             <div className="testimonial-grid">
               <div className="testimonial">
                 <p>
-                  "I tried several Arabic learning apps before finding LinguaLink. 
+                  "I tried several Arabic learning apps before finding SiLang. 
                   The story-based approach makes such a difference! I can actually 
                   understand conversations at the market now."
                 </p>
                 <div className="testimonial-author">
-                  <strong>Michael P.</strong>, Exchange Student in Fez
+                  <strong>LMa3ti</strong>, Exchange Student in Fez
                 </div>
               </div>
               
@@ -130,7 +130,7 @@ const About = () => {
                   communicate better with my extended family."
                 </p>
                 <div className="testimonial-author">
-                  <strong>Leila R.</strong>, Heritage Learner
+                  <strong>ftoma</strong>, Heritage Learner
                 </div>
               </div>
               
@@ -140,7 +140,7 @@ const About = () => {
                   things I was confused about during my first trip to Morocco!"
                 </p>
                 <div className="testimonial-author">
-                  <strong>Emma T.</strong>, Frequent Traveler
+                  <strong>khadija</strong>, Frequent Traveler
                 </div>
               </div>
             </div>
